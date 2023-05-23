@@ -1,0 +1,40 @@
+.Stats {
+  position: absolute;
+  width: 20vw;
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.779);
+}
+
+.Stats__left {
+  left: 0;
+  margin-left: 10vw;
+  top: 20vh;
+  text-align: left;
+  width: fit-content;
+}
+
+.Stats__right {
+  right: 0;
+  bottom: 0;
+  text-align: left;
+}
+
+.Stats .stat_value {
+  font-size: 10px;
+  margin-bottom: 0.5em;
+  color: rgb(3, 81, 103);
+  border: 0px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.Stats .stat_item {
+  margin-top: 0px;
+  height: fit-content;
+  background-color: rgb(192, 107, 250);
+  border: 0px;
+  /* padding: 16px; */
+  font-size: 2vw;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}

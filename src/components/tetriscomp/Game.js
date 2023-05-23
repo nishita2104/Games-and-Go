@@ -10,7 +10,6 @@ const Game = ({ rows, columns }) => {
 
   return (
     <div className="Game">
-      <h1>RULES</h1>
       {isGameOver ? (
         <Menu onClick={startf} />
       ) : (
